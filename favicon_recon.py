@@ -84,7 +84,7 @@ def print_result(res):
         print(f"    FOFA:   {res['fofa_query']}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Favicon Hash Reconnaissance Tool v2.0")
+    parser = argparse.ArgumentParser(description="Favicon Hash Reconnaissance Tool v1.0")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("-u", "--url", help="Target a single URL")
     group.add_argument("-i", "--input", help="Target a text file containing multiple URLs")

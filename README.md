@@ -2,6 +2,9 @@
 
 A powerful reconnaissance tool for extracting favicon hashes from websites and generating search queries for cybersecurity intelligence platforms like Shodan and FOFA.
 
+Inspiration for the project came from [Mejbaur Bahar Fagun
+](https://fagun18.medium.com/about) in his [article](https://fagun18.medium.com/using-favicon-hashes-for-osint-reconnaissanc-cefcb8c4ddca).
+
 ## Overview
 
 This tool retrieves favicons from target websites, calculates their MurmurHash3 (mmh3) hashes, and generates ready-to-use queries for popular threat intelligence platforms. Favicon hashing is a valuable technique for identifying web infrastructure, tracking technology stacks, and discovering related assets across the internet.
@@ -19,7 +22,7 @@ This tool retrieves favicons from target websites, calculates their MurmurHash3 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/philt-one/favicon-recon
 cd favicon-recon
 ```
 
